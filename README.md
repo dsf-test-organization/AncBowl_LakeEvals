@@ -1,2 +1,2 @@
 # AncBowl_LakeEvals
-Evaluation of pre and post stocking fish length and health
+Example file structure for a simple project. The project can be completed with relatively simple scripts that may call other packages.

@@ -1,2 +1,8 @@
 # AncBowl_LakeEvals
-Example file structure for a simple project. The project can be completed with relatively simple scripts that may call other packages. An alternative is to create and R package for each project, with all the organization and documentation within the package.
+
+A template for how to organize a project. I'm thinking the above layout is suitable for small projects where all the code can be fit into a few well documented scripts (or rmarkdown files) and is relatively easy to follow.
+
+For large projects, and R package may be more appropriate.
+
+* Guide to simple layout above: https://nicercode.github.io/blog/2013-04-05-projects/
+* Guide to R package organization: http://www.carlboettiger.info/2012/05/06/research-workflow.html

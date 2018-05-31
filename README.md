@@ -9,7 +9,7 @@ A template for how to organize a very simple project. For large projects an R pa
 
 ## Files Guide
 
-__data__ stored the raw data and the clean data. The raw data should never be edited - only read.
+__data__ stores the raw data and the clean data. The raw data should never be edited - only read.
 
 __doc__ contains the working and final project reports
 

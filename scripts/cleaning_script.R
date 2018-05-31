@@ -16,7 +16,7 @@ dat <- rnorm(100, mean = 400, sd = 100)
 # put NA's in the dataframe to make it messy
 for (i in 1:100){
   if (i%%12==0){
-    dat[i,] <- NA
+    dat[i] <- NA
   }
 }
 

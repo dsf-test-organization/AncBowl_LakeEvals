@@ -9,12 +9,11 @@ A template for how to organize a very simple project. For large projects an R pa
 
 ## Files Guide
 
-__data__ stored the raw data and the clean data. The raw data should never be edited - only read.
+__data__ stores the raw data and the clean data (and a metadata txt file?). The raw data should never be edited - only read. Analysis starts with the clean data.
 
 __doc__ contains the working and final project reports
 
-__output__ contains figures and any output that is cumbersome to create and used in the report i.e. simulation data/results
+__output__ contains figures and any output that is cumbersome to create and is used in the report, e.g., the data or results of a simulation
 
-__scripts__ contains the code organized by purpose. If they need to be run sequentially, number the files i.e. 01_cleaning, 02_analysis ...
-            For organizational purposes it may be necessary to have one .R file that defines all functions, and then simply source that file when cleaning and analysis.
+__scripts__ contains the code organized by purpose. If they need to be run sequentially, number the files, e.g., 01_cleaning, 02_analysis ... For organizational purposes it may be better to have one .R file dedicated to defining all custom functions, and then source that file during cleaning and analysis.
 

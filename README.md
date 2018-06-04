@@ -13,7 +13,7 @@ __data__ stores the raw data and the clean data (and a metadata txt file?). The 
 
 __doc__ contains the working and final project reports
 
-__output__ contains figures and any output that is cumbersome to create and is used in the report, e.g., the data or results of a simulation
+__output__ contains figures and any output that is cumbersome to create and is used in the report, e.g., the output of a simulation or anything that takes a long time to run
 
 __scripts__ contains the code organized by purpose. If they need to be run sequentially, number the files, e.g., 01_cleaning, 02_analysis ... For organizational purposes it may be better to have one .R file dedicated to defining all custom functions, and then source that file during cleaning and analysis.
 

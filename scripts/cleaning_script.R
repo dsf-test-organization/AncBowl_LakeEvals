@@ -1,15 +1,20 @@
 
-# This is a test project - no real data is being used
+# TEST PROJECT
+# this file creates 'messy' data by adding NA's
+# then 'cleans' the data by removing them
+# for the purpose of demonstrating project structure 
 
 
+# ================== Setup ==================
 
-# Initialize folders
 
-dir.create(paste0(getwd(),"/data"))
-dir.create(paste0(getwd(),"/scripts"))
+# Initialize folders if necessary
 
-##  -----
-##  Generate fake data - ignore this section
+# dir.create(paste0(getwd(),"/data"))
+# dir.create(paste0(getwd(),"/scripts"))
+
+
+# generate and write out 'messy' data
 
 dat <- rnorm(100, mean = 400, sd = 100)
 
@@ -26,9 +31,14 @@ for (i in 1:100){
 
 write.csv(dat, "./data/raw_data.csv", row.names = F)
 
-## -----
+
+
+# ================== cleaning ==================
+
+
 
 # remove NA's to make the data clean
 
 clean_data <- data.frame(length = dat[!is.na(dat)])
+
 write.csv(clean_data, "./data/clean_data.csv", row.names = F)

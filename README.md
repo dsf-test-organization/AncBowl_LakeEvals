@@ -2,8 +2,8 @@
 
 A template for how to organize a very simple project where only a few scripts are needed to get the job done. Much of the layout was taken from the following:
 
-* Guide to simple layout above: https://nicercode.github.io/blog/2013-04-05-projects/
-* Guide to using R packages for reproducible research: https://peerj.com/preprints/3192/
+* Guide to small project organization: https://nicercode.github.io/blog/2013-04-05-projects/
+* Guide to reproducible research using R packages: https://peerj.com/preprints/3192/
 
 
 

@@ -1,4 +1,4 @@
-# AncBowl_LakeEvals
+## Small Project Template
 
 A template for how to organize a very simple project where only a few scripts are needed to get the job done. Much of the layout was taken from the following:
 
@@ -7,7 +7,7 @@ A template for how to organize a very simple project where only a few scripts ar
 
 
 
-## Files Guide
+## Project Directory Guide
 
 __data__ stores the raw data and the clean data (and a metadata txt file?). The raw data should never be edited - only read. Analysis starts with the clean data. ? Separate into /data and /data-raw or keep as one folder?
 

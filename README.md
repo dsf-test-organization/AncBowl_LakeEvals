@@ -9,7 +9,7 @@ A template for how to organize a very simple project where only a few scripts ar
 
 ## Project Directory Guide
 
-__data__ stores the raw data and the clean data (and a metadata txt file?). The raw data should never be edited - only read. Analysis starts with the clean data. ? Separate into /data and /data-raw or keep as one folder?
+__data__ stores the raw data and the clean data. The raw data should never be edited - only read. Analysis starts with the clean data. Questions: Should this folder be split into /data-raw and /data or is one folder fine? Where does the metadata for the raw data file get stored? Use a readme style .txt document?
 
 __reports__ contains the working and final project reports. Perhaps one .Rmd file and one .docx file.
 
